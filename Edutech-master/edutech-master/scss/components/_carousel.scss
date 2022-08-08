@@ -1,0 +1,72 @@
+.hero {
+  background-color: $background-color2;
+  padding: 2em 3em;
+  position: relative;
+
+  &__wrapper {
+    margin: 2em auto;
+  }
+
+  &__item {
+    display: grid;
+    padding: 2em;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2em;
+    display: none;
+
+    @include respond(medium) {
+      grid-template-columns: 1fr;
+      padding: 0;
+
+    }
+
+    >* {
+      margin: auto;
+    }
+
+    &.active {
+      display: grid;
+    }
+  }
+
+  &__img {
+    margin-left: auto;
+    z-index: 1;
+
+    @include respond(medium) {
+      display: none;
+
+    }
+  }
+
+  &__text {
+    padding: 2em;
+    height: fit-content;
+ 
+    a {
+      margin: 2em 0;
+    }
+  }
+
+  &__png1 {
+    position: absolute;
+    right: -20px;
+    bottom: 3em;
+
+    @include respond(medium) {
+      display: none;
+
+    }
+  }
+
+  &__png2 {
+    position: absolute;
+    left: -26px;
+    bottom: 0;
+
+    @include respond(medium) {
+      display: none;
+
+    }
+  }
+}

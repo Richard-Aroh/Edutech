@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edutech</title>
+    <!-- Framework CDNs -->
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body id="home">
+    <main>
+      <!-- navigation start -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/images/book-svgrepo-com 1.png"
+              class="img-fluid logo"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link hover"
+                  style="color: #003f88"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link hover dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses <i class="fas fa-angle-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#courses">Product Design</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#courses">Product Management</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#courses">Data Analyst</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#courses">Cloud Administrator</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#courses">Digital Marketer</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#courses">Software Development</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <div class="logins">
+              <a href="#" class="action-btn">Login</a>
+              <a href="#" class="pry-btn">Register</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero start -->
+      <div class="hero">
+        <img
+          src="./assets/images/Group 27.png"
+          class="img-fluid hero__png1"
+          alt=""
+        />
+        <img
+          src="./assets/images/Group 28.png"
+          class="img-fluid hero__png2"
+          alt=""
+        />
+     
+            <div id="carouselExampleSlidesOnly" class="hero__wrapper carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item hero__item active">
+            <div class="hero__text">
+              <h1>
+                Building future Leaders, <span class="blue-text">Today</span>
+              </h1>
+              <br />
+              <p>
+                We are focused on training the leaders of tomorrow today by
+                providing access to all.
+              </p>
+              <br />
+              <a href="#" class="pry-btn">Register</a>
+            </div>
+            <div class="hero__img">
+              <img src="./assets/images/man.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item hero__item">
+            <div class="hero__text">
+              <h1>
+                <span class="blue-text">EduTech</span> for Today, for Tomorrow
+              </h1>
+              <br />
+              <p>
+                Our community of mentors help you learn today while you prepare
+                for the future by building you up.
+              </p>
+              <br />
+              <a href="#" class="pry-btn">Register</a>
+            </div>
+            <div class="hero__img">
+              <img src="./assets/images/woman.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  
+
+      <!-- intro section -->
+      <div id="about" class="container intro">
+        <div class="intro__header">
+          <h3 class="text-center">What we offer</h3>
+          <img src="./assets/images/Vector 6.png" class="stroke" alt="" />
+        </div>
+        <br />
+        <div class="intro__items">
+          <div class="intro__item">
+            <img src="./assets/images/Group 33.png" alt="" />
+            <h4>Virtual Learning</h4>
+            <p>We have mentors ready to go on this journey with you online.</p>
+          </div>
+          <div class="intro__item">
+            <img src="./assets/images/Group 34.png" alt="" />
+            <h4>Onsite Learning</h4>
+            <p>
+              We have onsite learning as well for those who prefers the
+              classroom experience.
+            </p>
+          </div>
+          <div class="intro__item">
+            <img src="./assets/images/Group 35.png" alt="" />
+            <h4>Onward Learning</h4>
+            <p>
+              Learning don’t stop, we have mentors who will come in when you
+              need them after the course.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr class="none" />
+      <!-- features section -->
+      <div class="container features">
+        <div class="features__feature">
+          <img src="./assets/images/first.png" alt="" />
+          <div class="features__text">
+            <h4>Learn from the comfort of your home</h4>
+            <p>
+              We hope that our new online learning environment will make the
+              educational experience more accessible to students of all ages.
+              For example, today's youths are eager to update their knowledge
+              base, but the difficulty of commuting makes it hard for them to
+              attend courses. Now you can enjoy learning while resting on your
+              couch.
+            </p>
+          </div>
+        </div>
+        <div class="features__feature">
+          <img src="./assets/images/second.png" alt="" />
+          <div class="features__text">
+            <h4>Experience the onsite learning</h4>
+            <p>
+              We care about your learning experience. For those who prefer a
+              classroom environment, we have a fully interactive training
+              facility. For those who want hands-on experience, our mentors are
+              on standby to give you that great classroom experience. You have
+              an opportunity to learn from the best. It’s time to take action!
+            </p>
+          </div>
+        </div>
+        <div class="features__feature">
+          <img src="./assets/images/third.png" alt="" />
+          <div class="features__text">
+            <h4>Onward Learning</h4>
+            <p>
+              Edutech will provide you with a network of people who can help you
+              with your future projects. We give you access to muiltiple
+              projects when your training is done, with access to reach your
+              instructors to assist where you seem lost on a project.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- courses section -->
+      <div id="courses" class="courses">
+        <div class="intro__header">
+          <h3 class="text-center">Our Courses</h3>
+          <img src="./assets/images/Vector 6.png" class="stroke" alt="" />
+        </div>
+        <div class="courses__wrapper">
+          <div class="courses__course">
+            <h5>Product Design</h5>
+            <img src="./assets/images/Group 11.png" class="img-fluid" alt="" />
+            <p>
+              We are the only company in the world that offers an Instructor-led
+              and hands-on training model on tech product design. The courses
+              are designed for beginners who want to learn the basics of tech
+              product design, all the way to experienced designers who want to
+              become great product managers.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="courses__course">
+            <h5>Product Management</h5>
+            <img src="./assets/images/Group 12.png" alt="" />
+            <p>
+              Edutech is a leading provider of experiential product management
+              learning solutions. We offer a range of services from educational
+              workshops, to in-house training and coaching, and even the
+              creation and launch of your product into the market.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="courses__course">
+            <h5>Data Analysis</h5>
+            <img src="./assets/images/Group 13.png" class="img-fluid"  alt="" />
+            <p>
+              The Data Analyst Bootcamp course is a perfect course if you are
+              looking for a career in Data Analytics. This course helps you
+              accelerate your career into Data Analytics: Learn Structured Query
+              Language and Power BI for Data Analytics and Visualization and
+              Visualization.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="courses__course">
+            <h5>Cloud Administration</h5>
+            <img src="./assets/images/Group 14.png" class="img-fluid"  alt="" />
+            <p>
+              The course starts with the basics of cloud computing and quickly
+              moves to cover advanced topics such as job scheduling, Windows
+              virtual machines, networking, monitoring and storage. Students
+              will use Azure services such as SQL Database, Mobile Service and
+              Redis Cache.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="courses__course">
+            <h5>Digital Marketing</h5>
+            <img src="./assets/images/Group 15.png" class="img-fluid"  alt="" />
+            <p>
+              Digital marketing involves the promotion of products and services
+              through a variety of digital channels, using the internet and
+              mobile technology. Learn more about what this industry entails
+              through this article in our series on Marketing Careers.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="courses__course">
+            <h5>Software Development</h5>
+            <img src="./assets/images/Group 16.png" class="img-fluid"  alt="" />
+            <p>
+              Software developers are the creative minds behind software
+              programs, and they have the technical skills to build those
+              programs. Developers can work anywhere in the world, and many
+              people who have this job enjoy it so much that they never plan to
+              quit.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- payments section -->
+      <div class="payment">
+        <img src="./assets/images/payment.svg" alt="" class="img-fluid">
+        <!-- <div class="intro__header py-2 my-5">
+          <h3 class="text-center">Flexible Payment Plan</h3>
+          <img src="./assets/images/Vector 6.png" class="stroke" alt="" />
+        </div> -->
+        <!-- <div class="payment__wrapper">
+          <img src="./assets/images/Vector 8.png" class="payment__arrow" alt=""> 
+          <img src="./assets/images/Vector 8.png"  class="payment__arrrow" alt=""> 
+          <div class="payment__group">
+            <img src="./assets/images/Group 36.png" alt="" />
+            <h6 class="blue-text">First</h6>
+            <p>1st Installment upon registration</p>
+          </div>
+
+          <div class="payment__group">
+            <img src="./assets/images/Group 37.png" alt="" />
+            <h6 class="blue-text">Second</h6>
+            <p>2nd Installment middle of the course</p>
+          </div>
+
+          <div class="payment__group">
+            <img src="./assets/images/Group 38.png" alt="" />
+            <h6 class="blue-text">Third</h6>
+            <p>3rd installment before exam intake</p>
+          </div>
+        </div> -->
+      </div>
+      <!-- testimonials section -->
+      <div class="testimonials">
+        <div class="intro__header py-2 my-5">
+          <h3 class="text-center">Testimonials from our Students</h3>
+          <img src="./assets/images/Vector 6.png" class="stroke" alt="" />
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonials__item">
+                <div class="testimonials__img">
+                  <img
+                    src="./assets/images/onyem.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="testimonials__text">
+                  <h5 class="blue-text">Onyemowo</h5>
+                  <p>
+                    When I was young i always wanted to know how mobile apps and
+                    websites were designed, coming to EduTech showed me I can do
+                    it and it’s been a wonderful journey. I’m on the right path
+                    to a great career as a Product designer.
+                  </p>
+                  <small><i>Product designer</i></small>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonials__item">
+                <div class="testimonials__img">
+                  <img src="./assets/images/mo.png" class="img-fluid" alt="" />
+                </div>
+                <div class="testimonials__text">
+                  <h5 class="blue-text">Morenike</h5>
+                  <p>
+                    This was the first time I had ever considered becoming a
+                    software developer. The course was not easy, but I learned
+                    how to learn and how to think like a software developer. I
+                    was given the tools to succeed in any job or career path I
+                    chose.
+                  </p>
+                  <small><i>Software Developer</i></small>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonials__item">
+                <div class="testimonials__img">
+                  <img src="./assets/images/guy.png" class="img-fluid" alt="" />
+                </div>
+                <div class="testimonials__text">
+                  <h5 class="blue-text">Ebuka</h5>
+                  <p>
+                    I became a professional data analyst after completing my
+                    courses with EduTech and the journey has been amazing. I’m
+                    grateful that I can get in touch when I need directions to
+                    something I don’t know.
+                  </p>
+                  <small><i>Data Analyst</i></small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="footer">
+        <div class="footer__wrapper">
+          <div class="footer__item">
+            <img width="75px" src="./assets/images/footer-logo.png" alt="" />
+            <h6 style="color: #ffffff;">EduTech for Today, <br> for Tomorrow</h6>
+          </div>
+          <div class="footer__item">
+            <h6>EduTech</h6>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link hover" href="#">Contact</a>
+              </li>
+                <a  href="#" class="w-50 mx-0 action-btn">Login</a>
+                <a  href="#" class="w-50 mx-0 pry-btn">Register</a>
+            
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h6>Courses</h6>
+            <ul class="navbar-nav">
+              <li><a class="nav-link hover" href="#">Product Design</a></li>
+              <li><a class="nav-link hover" href="#">Product Management</a></li>
+              <li><a class="nav-link hover" href="#">Data Analyst</a></li>
+              <li>
+                <a class="nav-link hover" href="#">Cloud Administrator</a>
+              </li>
+              <li><a class="nav-link hover" href="#">Digital Marketer</a></li>
+              <li>
+                <a class="nav-link hover" href="#">Software Development</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h6>Resourses</h6>
+            <ul class="navbar-nav">
+              <li><a class="nav-link hover" href="#">Blog</a></li>
+              <li><a class="nav-link hover" href="#">FAQs</a></li>
+              </li>
+            </ul> <br>
+            <h6 style="color: #ffffff;">Be the first to hear from us</h6>
+            <form class="footer__form" action="#">
+              <input type="email" placeholder="Enter Your Email">
+              <input type="submit" value="Send">
+            </form>
+          </div>
+        </div> <br> <br> <hr> <br>
+        <div class="footer__base">
+         <p> © 2021 EduTech. All rights reserved. </p> 
+            <a class="hover" href="#">Terms & Conditions </a>
+            <a class="hover" href="#">Refund Policy</a>
+            <div class="socials">
+              <img class="icons" src="./assets/images/linkedin.png" alt="">
+              <img class="icons" src="./assets/images/instagram.png" alt="">
+              <img class="icons" src="./assets/images/twitter.png" alt="">
+              <img class="icons" src="./assets/images/facebook.png" alt="">
+            </div>
+        </div>
+       
+      </div>
+    </main>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./javascripts/main.js"></script>
+  </body>
+</html>
